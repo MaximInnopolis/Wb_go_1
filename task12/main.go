@@ -13,7 +13,7 @@ func main() {
 		set[item] = true
 	}
 
-	// Получение элементов множества в виде среза
+	// Получение элементов множества в виде слайса
 	uniqueItems := make([]string, 0, len(set))
 	for item := range set {
 		uniqueItems = append(uniqueItems, item)

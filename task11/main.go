@@ -25,7 +25,7 @@ func main() {
 		}
 	}
 
-	// Получение пересечение в виде среза
+	// Получение пересечение в виде слайса
 	intersection := make([]any, 0, len(intersectionMap))
 	for value := range intersectionMap {
 		intersection = append(intersection, value)
